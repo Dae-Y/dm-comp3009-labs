@@ -1,6 +1,9 @@
 # COMP3009: Data Mining Labs
 
-This repository contains my solutions and code for the labs in **COMP3009: Data Mining**, completed during **Semester 2, 2025**.  
+📚 Semester 2, 2025 Curtin University
+
+This repository contains practical materials, code samples, and notes for **COMP3009: Data Mining**.
+
 The labs cover fundamental concepts and techniques in data mining, from **data preparation** to **advanced analysis methods**.
 
 ---
