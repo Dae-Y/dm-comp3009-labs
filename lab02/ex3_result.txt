@@ -1,0 +1,11 @@
+Reflection on Sample Mean Convergence
+
+Trend as sample size increases:
+As n increases, the average z-score (ẑₙ) decreases steadily.
+Small samples (n=10, 20) have large deviations, while larger samples
+approach the population mean more closely, with z-scores trending toward zero.
+
+Why z-score is useful:
+The z-score normalizes deviation in terms of standard deviations,
+making it independent of the raw scale of the 'count' attribute.
+This allows meaningful comparison of deviations across sample sizes.

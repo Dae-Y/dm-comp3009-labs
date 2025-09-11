@@ -1,0 +1,23 @@
+Key difference between att3 and att4 in this dataset:
+
+att3
+Attribute name: age
+Data type: numeric (integer/float)
+Meaning: The patient’s age in years.
+Range: roughly from teenage years up to 80+.
+Continuous variable, so when you discretize into bins, you’ll see intervals like [15–22), [22–29), etc.
+
+att4
+Attribute name: sex
+Data type: categorical (nominal, binary coded as 1 or 2)
+Meaning: Patient’s biological sex.
+1 = male
+2 = female
+
+Since it’s categorical with only two values, 
+it doesn’t make sense to apply equi-depth or equi-width binning the same way as with a continuous attribute like age.
+So the difference is:
+
+att3 is continuous numeric (age) – good candidate for normalization and discretization.
+att4 is categorical/binary (sex) – should generally be treated as a label/feature with two categories, 
+                                   not binned into numeric ranges.
