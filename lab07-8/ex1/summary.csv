@@ -1,0 +1,5 @@
+method,n_clusters,noise_points,ssq_total
+Agglomerative,3,0,3130.9629826894597
+K-Means,3,0,3110.6705580544476
+Gaussian Mixture,3,0,3139.679294134914
+DBSCAN,2,0,9211.964596193191

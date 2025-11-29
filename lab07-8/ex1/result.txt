@@ -1,0 +1,43 @@
+--- Visualising the Original Data ---
+
+--- Agglomerative Clustering (full tree for dendrogram) ---
+Saved dendrogram as ex1/dendrogram.png
+
+--- Agglomerative Clustering (n_clusters=3) ---
+Per-cluster SSQ (Agglomerative):
+  Cluster 0: 1,076.47
+  Cluster 1: 1,188.58
+  Cluster 2: 865.92
+Total SSQ (Agglomerative): 3,130.96
+
+--- K-Means (k=3) ---
+Per-cluster SSQ (K-Means):
+  Cluster 0: 1,076.47
+  Cluster 1: 926.45
+  Cluster 2: 1,107.75
+Total SSQ (K-Means): 3,110.67
+
+--- Gaussian Mixture Model (n_components=3) ---
+Per-cluster SSQ (Gaussian Mixture):
+  Cluster 0: 1,076.47
+  Cluster 1: 853.26
+  Cluster 2: 1,209.95
+Total SSQ (Gaussian Mixture): 3,139.68
+
+--- DBSCAN ---
+DBSCAN found 2 clusters.
+Number of noise points (label -1): 0
+Per-cluster SSQ (DBSCAN) [noise excluded]:
+  Cluster 0: 1,076.47
+  Cluster 1: 8,135.50
+Total SSQ (DBSCAN): 9,211.96
+
+--- Comparison of Clustering Methods by Total SSQ (lower is better) ---
+   Agglomerative | clusters= 3 | noise=  0 | SSQ=3,130.96
+         K-Means | clusters= 3 | noise=  0 | SSQ=3,110.67
+Gaussian Mixture | clusters= 3 | noise=  0 | SSQ=3,139.68
+          DBSCAN | clusters= 2 | noise=  0 | SSQ=9,211.96
+
+Based on Total SSQ, the best clustering method is: 'K-Means'.
+
+Saved summary to ex1/summary.csv
